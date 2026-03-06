@@ -10,6 +10,8 @@ header{
     width: 100vW;
     height: 60px;
     display: flex;
+    padding-left: 12%;
+    padding-right: 13%;
     justify-content: space-between;
     align-items: center;
     position: sticky;
@@ -53,6 +55,8 @@ header>div>div>a:hover{
 nav{
   display: flex;
   justify-content: space-between;
+  padding-left: 12%;
+  padding-right: 13%;
  align-items: center;
  width: 100vw;
  height: 60px;
@@ -97,6 +101,7 @@ transition: .3s ease;
 }
 #left-hero{
   display: flex;
+  padding-left: 9%;
   flex-direction: column;
   gap: 20px;
 }
@@ -184,14 +189,14 @@ transition: .3s ease;
     width: 90%;
     margin: auto;
     display: flex;
+    padding-left: 15%;  
     flex-direction: column;
     gap: 40px;
 }
 .suga-big-box{
     display: flex;
     flex-wrap:wrap;
-    gap: 50px;
-    padding-left: 10%;
+    gap: 10px;
 }
 
 .suga-box{
@@ -219,11 +224,14 @@ transition: .3s ease;
 
 #pay{
   padding-top: 30px;
+  padding-left: 16%;
 }
 #pay-main {
-  width: 75%;
+  width: 100%;
   margin: auto;
-  padding: 20px;
+  padding-top: 20px;
+  padding-left: 5%;
+  padding-right: 23%;
   gap: 40px;
   display: flex;
   flex-direction: row;
@@ -242,7 +250,7 @@ transition: .3s ease;
   background-color: #9DCDD6;
   background-image: url("https://tb-static.uber.com/prod/udam-assets/5152cc71-a5b0-4fbd-aeb8-bee896efcd48.png");
   background-repeat: no-repeat;
-  background-size: 293px;
+  background-size: 325px;
   background-position: right;
   border-radius: 8px;
   padding: 25px;
@@ -468,7 +476,9 @@ transition: .3s ease;
 
 #lastparegraph{
   margin-top:60px;
-  padding:40px 200px;
+  /* padding:40px 200px; */
+  padding-left: 20%;
+  padding-right: 21%;
   font-size:14px;
   line-height:1.6;
   color:#555;
@@ -480,8 +490,9 @@ transition: .3s ease;
 }
 
 #footer-main{
-  padding-left: 11%;
+  padding-left: 20%;
   padding-top: 5%;
+  padding-bottom: 5%;
   padding-right: 20%;
 }
 #footer-1{
@@ -611,7 +622,7 @@ transition: .3s ease;
 
   #Hero-section{
     flex-direction: column;
-    gap: 40px;
+    gap: 0px;
     padding: 40px 20px;
   }
 
